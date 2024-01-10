@@ -1,0 +1,57 @@
+.sidebar {
+    background-color: #1e2952;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+  
+  .sidebar-header {
+    margin-bottom: 20px;
+    margin-left: 60px;
+  }
+  
+  .sidebar-header h4 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter; /* Adjust text weight */
+  }
+  
+  .visit-store {
+    text-decoration: underline;
+    color: lightgrey; /* Adjust text color */
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-list li {
+    margin-bottom: 16px; /* Adjust margin between list items */
+  }
+  
+  .sidebar-list li svg {
+    margin-right: 10px;
+  }
+  
+  .sidebar-list li {
+    color: lightgrey; /* Adjust text color */
+    font-weight: lighter; /* Adjust text weight */
+  }
+  
+  .sidebar-list li:hover {
+    color: lightblue; /* Change the color on hover to lightblue */
+    cursor: pointer;
+}
+  
+  .sidebar-list li:hover svg {
+    color: lightblue; /* Change the icon color on hover to lightblue */
+    cursor: pointer;
+}
+  
